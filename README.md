@@ -16,7 +16,8 @@ mods are installed yet.
   per mod, each with its download link and checksum. Mod jars are never
   committed.
 - **Client:** a Prism Launcher instance runs packwiz-installer before every
-  launch, so it always matches this repo.
+  launch, so it always matches this repo. Players get it from a one-page
+  download site; see [docs/PLAYER-SITE.md](docs/PLAYER-SITE.md).
 - **Server:** the same pack, installed with the server-side mods only.
 - Mods are added in four batches (keystone and performance, tech, world, QoL).
   Each batch is launched and its logs are checked before the next one goes in,

@@ -19,3 +19,12 @@ installed, this file will list each mod's authors and links.
 - Compatibility notes: the bug trackers for Create Aeronautics
   (https://github.com/Creators-of-Aeronautics/Simulated-Project) and Sable
   (https://github.com/ryanhcode/sable); specific issues are linked in the mod list.
+- Player install flow ([docs/PLAYER-SITE.md](docs/PLAYER-SITE.md)), checked
+  2026-11-21: packwiz docs (https://packwiz.infra.link), packwiz-installer
+  source and issue #93 (https://github.com/packwiz/packwiz-installer), and the
+  Prism Launcher wiki and 9.0 release notes (https://prismlauncher.org).
+- Artifacts loot coverage ([docs/research/2026-11-21-artifacts-loot.md](docs/research/2026-11-21-artifacts-loot.md)):
+  Artifacts source and issue #212 (https://github.com/ochotonida/artifacts),
+  YUNG's structure mod sources (https://github.com/YUNG-GANG), Stardust Labs'
+  Structory and Terralith sources (https://github.com/Stardust-Labs-MC), and
+  NeoForge's loot table patch (https://github.com/neoforged/NeoForge).

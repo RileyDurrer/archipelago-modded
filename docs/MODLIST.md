@@ -47,7 +47,6 @@ against (reason given).
 | Create: The Factory Must Grow (TFMG) | Modrinth `create-tfmg` | 1.2.0 (2026-01-07; tagged for all 1.21.x, so confirm the jar loads on 1.21.1, else 1.1.1 `tfmg-1.1.1-1.21.1.jar`) | MIT Non-AI License | Requested by players 2026-11-22: oil, refining, diesel and engines for a shared power plant and a fuel depot. Only reported Sable issue is a model-loading warning ([Sable #1430](https://github.com/ryanhcode/sable/issues/1430)). Test: a TFMG engine running on a moving ship |
 | Create: Numismatics | Modrinth `numismatics` | 1.1.0+neoforge-mc1.21.1 (2026-08-27) | LGPL-3.0 | Requested by players 2026-11-22: currency, bank accounts and vendor blocks, so players can sell power and goods. No Sable issues found |
 | Sophisticated Backpacks | Modrinth `sophisticated-backpacks` | 1.21.1-3.26.22.2257 | All Rights Reserved | |
-| Sophisticated Storage | Modrinth `sophisticated-storage` | 1.21.1-1.6.20.2239 | All Rights Reserved | |
 
 ### Batch 3: world and exploration
 | Mod | Source | Version checked | Licence | Notes |
@@ -60,7 +59,7 @@ against (reason given).
 | Structory | Modrinth `structory` | 1.3.17 | Stardust Labs License | |
 | Nullscape | Modrinth `nullscape` | 1.2.14 | Stardust Labs License | |
 | Aquamirae | Modrinth `aquamirae` | 7.2.13 | Obscuria Modding License | |
-| Artifacts | Modrinth `artifacts` | 13.2.5 | MIT | |
+| Artifacts | Modrinth `artifacts` | 13.2.5 | MIT | Kept by Riley 2026-11-21 for exploration. Loot only lands in vanilla loot tables, so most YUNG's rooms, Structory and probably When Dungeons Arise won't carry it; campsites, mineshafts and temples will. See [Artifacts loot research](research/2026-11-21-artifacts-loot.md) |
 | Naturalist | Modrinth `naturalist` | 2.0.7+1.21.1-neoforge | Custom | |
 
 ### Batch 4: vanilla+ / QoL
@@ -68,10 +67,8 @@ against (reason given).
 |---|---|---|---|---|
 | JEI | Modrinth `jei` | 19.70.0.469 | MIT | Recipe viewer |
 | Jade | Modrinth `jade` | 15.10.6+neoforge | CC-BY-NC-SA-4.0 | |
-| Xaero's Minimap | Modrinth `xaeros-minimap` | neoforge-1.21.1-26.6.0 | All Rights Reserved | Open report of the game hanging on the loading screen with Sable + Xaero's Minimap ([Sable #1109](https://github.com/ryanhcode/sable/issues/1109)). Fallback: JourneyMap |
 | Xaero's World Map | Modrinth `xaeros-world-map` | neoforge-1.21.1-1.47.0 | All Rights Reserved | |
 | AppleSkin | Modrinth `appleskin` | 3.0.9+mc1.21 | Unlicense | |
-| Mouse Tweaks | Modrinth `mouse-tweaks` | 1.21-2.26.1-neoforge | BSD-3-Clause | |
 | Controlling | Modrinth `controlling` | 19.0.5 | MIT | |
 | Carry On | Modrinth `carry-on` | 2.2.6 | LGPL-3.0 | |
 | Carry On + Create Aeronautics Compat | Modrinth `carryon-aeronautics-compat` | (latest 1.21.1) | | Lets Carry On work on moving ships; server-side |
@@ -112,6 +109,7 @@ If 1–3 crash and 4 works, drop Big Cannons to the Watchlist and use TNT cannon
 | Mod | Source | Question |
 |---|---|---|
 | Create Aeronautics: Transmission & Linkage | Modrinth `create-aeronautics-transmission-linkage` | Extra vehicle parts: in or out? |
+| Storage mod (none chosen) | | Which storage mod, if any, beside Create and AE2? Sophisticated Storage was cut 2026-11-21 so this can be chosen with care |
 
 ## Watchlist (wanted, not ready yet)
 | Mod | Source | Checked | Why it's waiting | What would make it ready |
@@ -129,7 +127,10 @@ If 1–3 crash and 4 works, drop Big Cannons to the Watchlist and use TNT cannon
 | Waystones | Airships make getting there the fun part. Confirmed by Riley 2026-11-21 |
 | Refined Storage | Duplicates AE2 |
 | Embeddium | Sodium now has a native NeoForge build |
-| Inventory Profiles Next | Mouse Tweaks covers most of it |
+| Sophisticated Storage | Cut by Riley 2026-11-21: the storage mod needs a deliberate choice (see Undecided) |
+| Xaero's Minimap | Players who want a minimap can add their own. Decided by Riley 2026-11-21. Also had an open loading-screen hang report with Sable ([Sable #1109](https://github.com/ryanhcode/sable/issues/1109)) |
+| Mouse Tweaks | Changes how inventory clicks and drags behave, which breaks players' habits. Decided by Riley 2026-11-21 |
+| Inventory Profiles Next | Same reason as Mouse Tweaks: changes inventory behaviour players are used to |
 | C2ME | Still alpha |
 | Noisium | No update since 2024 |
 | Sable Water Fix | Single release, ~1k downloads, code stated as AI-generated; too risky beside Sable |
