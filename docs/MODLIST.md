@@ -71,7 +71,6 @@ against (reason given).
 | Xaero's Minimap | Modrinth `xaeros-minimap` | neoforge-1.21.1-26.6.0 | All Rights Reserved | Open report of the game hanging on the loading screen with Sable + Xaero's Minimap ([Sable #1109](https://github.com/ryanhcode/sable/issues/1109)). Fallback: JourneyMap |
 | Xaero's World Map | Modrinth `xaeros-world-map` | neoforge-1.21.1-1.47.0 | All Rights Reserved | |
 | AppleSkin | Modrinth `appleskin` | 3.0.9+mc1.21 | Unlicense | |
-| Mouse Tweaks | Modrinth `mouse-tweaks` | 1.21-2.26.1-neoforge | BSD-3-Clause | |
 | Controlling | Modrinth `controlling` | 19.0.5 | MIT | |
 | Carry On | Modrinth `carry-on` | 2.2.6 | LGPL-3.0 | |
 | Carry On + Create Aeronautics Compat | Modrinth `carryon-aeronautics-compat` | (latest 1.21.1) | | Lets Carry On work on moving ships; server-side |
@@ -129,7 +128,8 @@ If 1–3 crash and 4 works, drop Big Cannons to the Watchlist and use TNT cannon
 | Waystones | Airships make getting there the fun part. Confirmed by Riley 2026-11-21 |
 | Refined Storage | Duplicates AE2 |
 | Embeddium | Sodium now has a native NeoForge build |
-| Inventory Profiles Next | Mouse Tweaks covers most of it |
+| Mouse Tweaks | Changes how inventory clicks and drags behave, which breaks players' habits. Decided by Riley 2026-11-21 |
+| Inventory Profiles Next | Same reason as Mouse Tweaks: changes inventory behaviour players are used to |
 | C2ME | Still alpha |
 | Noisium | No update since 2024 |
 | Sable Water Fix | Single release, ~1k downloads, code stated as AI-generated; too risky beside Sable |

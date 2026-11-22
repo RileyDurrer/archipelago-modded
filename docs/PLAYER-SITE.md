@@ -89,7 +89,7 @@ Aeronautics, Sable and Waterworks cannot be optional):
 | Iris | Open Aeronautics report of a visual glitch with shaders |
 | Sodium | Open Aeronautics report of a vertex glitch |
 | Xaero's Minimap, Xaero's World Map | Open report of a loading-screen hang with Sable ([Sable #1109](https://github.com/ryanhcode/sable/issues/1109)) |
-| Mouse Tweaks, Controlling, AppleSkin, Jade | Personal preference |
+| Controlling, AppleSkin, Jade | Personal preference |
 
 Entity Culling and ImmediatelyFast stay required: they are performance mods
 players have no reason to remove.
