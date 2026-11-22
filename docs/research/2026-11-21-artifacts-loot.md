@@ -63,4 +63,5 @@ Artifacts will turn up, but unevenly. Campsites, mineshafts, small dungeons,
 temples and vanilla-table structures (shipwrecks, mansions, villages, bastions,
 End cities) carry it. Most YUNG's rooms, Structory, and probably When Dungeons
 Arise do not. To spread it wider, a small datapack could add Artifacts' loot
-tables to those structures' tables. Undecided.
+tables to those structures' tables. Decided by Riley 2026-11-21: keep the
+defaults, no datapack. Revisit if players rarely find artifacts.
