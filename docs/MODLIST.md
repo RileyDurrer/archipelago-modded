@@ -44,6 +44,8 @@ against (reason given).
 | Create: Copycats+ | Modrinth `copycats` | (latest 1.21.1) | | Light blocks for ship hulls |
 | Create Big Cannons | Modrinth `create-big-cannons` | 5.11.7 (2026-06-22) | Create Big Cannons License | Airship combat. Needs Ritchie's Projectile Library (`rpl`, MIT). Many open crash reports with Aeronautics/Sable; must pass the cannon tests below or move to Watchlist |
 | Ritchie's Projectile Library | Modrinth `rpl` | (latest 1.21.1) | MIT | Required by Big Cannons |
+| Create: The Factory Must Grow (TFMG) | Modrinth `create-tfmg` | 1.2.0 (2026-01-07; tagged for all 1.21.x, so confirm the jar loads on 1.21.1, else 1.1.1 `tfmg-1.1.1-1.21.1.jar`) | MIT Non-AI License | Requested by players 2026-11-22: oil, refining, diesel and engines for a shared power plant and a fuel depot. Only reported Sable issue is a model-loading warning ([Sable #1430](https://github.com/ryanhcode/sable/issues/1430)). Test: a TFMG engine running on a moving ship |
+| Create: Numismatics | Modrinth `numismatics` | 1.1.0+neoforge-mc1.21.1 (2026-08-27) | LGPL-3.0 | Requested by players 2026-11-22: currency, bank accounts and vendor blocks, so players can sell power and goods. No Sable issues found |
 | Sophisticated Backpacks | Modrinth `sophisticated-backpacks` | 1.21.1-3.26.22.2257 | All Rights Reserved | |
 | Sophisticated Storage | Modrinth `sophisticated-storage` | 1.21.1-1.6.20.2239 | All Rights Reserved | |
 
@@ -66,7 +68,7 @@ against (reason given).
 |---|---|---|---|---|
 | JEI | Modrinth `jei` | 19.70.0.469 | MIT | Recipe viewer |
 | Jade | Modrinth `jade` | 15.10.6+neoforge | CC-BY-NC-SA-4.0 | |
-| Xaero's Minimap | Modrinth `xaeros-minimap` | neoforge-1.21.1-26.6.0 | All Rights Reserved | |
+| Xaero's Minimap | Modrinth `xaeros-minimap` | neoforge-1.21.1-26.6.0 | All Rights Reserved | Open report of the game hanging on the loading screen with Sable + Xaero's Minimap ([Sable #1109](https://github.com/ryanhcode/sable/issues/1109)). Fallback: JourneyMap |
 | Xaero's World Map | Modrinth `xaeros-world-map` | neoforge-1.21.1-1.47.0 | All Rights Reserved | |
 | AppleSkin | Modrinth `appleskin` | 3.0.9+mc1.21 | Unlicense | |
 | Mouse Tweaks | Modrinth `mouse-tweaks` | 1.21-2.26.1-neoforge | BSD-3-Clause | |
