@@ -38,7 +38,7 @@ against (reason given).
 ### Batch 2: tech
 | Mod | Source | Version checked | Licence | Notes |
 |---|---|---|---|---|
-| Applied Energistics 2 | Modrinth `ae2` | 19.2.20 | Multiple | Chosen over Refined Storage |
+| Applied Energistics 2 | Modrinth `ae2` | 19.2.20 | Multiple | Chosen over Refined Storage. Under review 2026-11-21: Create 6's own storage is now the main system (see Undecided) |
 | Create Crafts & Additions | Modrinth `createaddition` | neoforge-1.21.1-1.7.2 | MIT | Electricity |
 | Create: Enchantment Industry | Modrinth `create-enchantment-industry` | 2.5.4b | LGPL-3.0 | |
 | Create: Copycats+ | Modrinth `copycats` | (latest 1.21.1) | | Light blocks for ship hulls |
@@ -48,6 +48,10 @@ against (reason given).
 | Create: Numismatics | Modrinth `numismatics` | 1.1.0+neoforge-mc1.21.1 (2026-08-27) | LGPL-3.0 | Requested by players 2026-11-22: currency, bank accounts and vendor blocks, so players can sell power and goods. No Sable issues found |
 | Farmer's Delight | Modrinth `farmers-delight` | 1.21.1-1.3.4 (2026-08-29) | MIT | Added by Riley 2026-11-21: crops, meals and cooking blocks (pot, stove, skillet, cutting board). No dependencies. Supports AppleSkin and JEI. Its chest loot uses vanilla tables, so most YUNG's chests won't carry it. Cooking-pot and cutting-board dupes on ship assembly are fixed ([FD #1278](https://github.com/vectorwing/FarmersDelight/issues/1278), [Sable #612](https://github.com/ryanhcode/sable/issues/612)); a general container dupe is still open ([Sable #170](https://github.com/ryanhcode/sable/issues/170)). Test: assemble a ship with a full cooking pot |
 | Create Slice & Dice | Modrinth `slice-and-dice` | 4.3.4 (2026-09-20) | All Rights Reserved; modpacks allowed when downloaded unmodified from official sources | Added by Riley 2026-11-21: automates Farmer's Delight with Create (Slicer, Mixer cooking, sprinklers). Needs Kotlin for Forge. Supports Aeronautics ships since 4.3.0 ([#297](https://github.com/PssbleTrngle/SliceAndDice/issues/297)); sprinklers on ships are "a bit experimental" per the author ([#281](https://github.com/PssbleTrngle/SliceAndDice/issues/281)) |
+| Create: Additional Logistics | Modrinth `create-additional-logistics` | 1.4.5 (2026-01-14) | MIT | Added by Riley 2026-11-21. Stops factory gauges flooding the network with ingredient packages. See [storage research](research/2026-11-21-create-storage.md) |
+| Create: Re-Packager Fix | Modrinth `create-re-packager-fix` | 1.1.0 (2026-09-12) | MIT | Added by Riley 2026-11-21. Server-side patch for Create 6.0.10's open re-packager dupe ([Create #8082](https://github.com/Creators-of-Create/Create/issues/8082)); remove once Create fixes it |
+| Create: Vibrant Vaults | Modrinth `create-vibrant-vaults` | 0.3.2 (2025-03-31) | MIT; modpacks must take downloads from Modrinth, which packwiz does | Added by Riley 2026-11-21. Vault styles, shipping containers, colour-coded frogports and packagers |
+| Storage Drawers | Modrinth `storagedrawers` | 1.21.1-13.11.4 (2025-09-14) | MIT | Added by Riley 2026-11-21 as simple storage for players who find Create logistics hard. Works with Create funnels. Bases only: on ships, drawer contents don't render ([Sable #178](https://github.com/ryanhcode/sable/issues/178)) and taking items out causes lag ([Sable #761](https://github.com/ryanhcode/sable/issues/761)) |
 | Kotlin for Forge | Modrinth `kotlin-for-forge` | (latest 1.21.1) | | Required by Slice & Dice |
 | Sophisticated Backpacks | Modrinth `sophisticated-backpacks` | 1.21.1-3.26.22.2257 | All Rights Reserved | |
 
@@ -112,7 +116,7 @@ If 1–3 crash and 4 works, drop Big Cannons to the Watchlist and use TNT cannon
 | Mod | Source | Question |
 |---|---|---|
 | Create Aeronautics: Transmission & Linkage | Modrinth `create-aeronautics-transmission-linkage` | Extra vehicle parts: in or out? |
-| Storage mod (none chosen) | | Which storage mod, if any, beside Create and AE2? Sophisticated Storage was cut 2026-11-21 so this can be chosen with care |
+| Applied Energistics 2 | Modrinth `ae2` | Keep it, or drop it now that Create 6's own storage (vaults, packagers, Stock Keeper) is the main system? Several open AE2 crash reports on Sable; see [storage research](research/2026-11-21-create-storage.md) |
 
 ## Watchlist (wanted, not ready yet)
 | Mod | Source | Checked | Why it's waiting | What would make it ready |

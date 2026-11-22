@@ -38,3 +38,7 @@ installed, this file will list each mod's authors and links.
   (https://github.com/vectorwing/FarmersDelight), Slice & Dice's licence and
   issues (https://github.com/PssbleTrngle/SliceAndDice), and the Sable issue
   tracker.
+- Create storage and logistics ([docs/research/2026-11-21-create-storage.md](docs/research/2026-11-21-create-storage.md)),
+  checked 2026-11-21: Create 6.0.10 source (lang and config files,
+  https://github.com/Creators-of-Create/Create), the Sable and Aeronautics
+  issue trackers, and the Modrinth API for each add-on.
