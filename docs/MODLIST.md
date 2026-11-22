@@ -3,6 +3,11 @@
 Base: **NeoForge, Minecraft 1.21.1**. Themes: tech/automation, exploration, vanilla+.
 Multiplayer: dedicated server on the home server.
 Keystone: **Create Aeronautics**.
+World: an **archipelago**, with no continents and no massive islands. Decided
+2026-11-22: Tectonic stays on its default config, and Riley picks a seed with
+the right island layout when the world is created. If no seed works, the
+fallbacks are tuning Tectonic (Ocean Offset, Continents Scale, the Islands
+settings) or Sky Archipelago (see Watchlist).
 
 Started 2026-11-19. Versions and sides were checked against the Modrinth API on
 2026-11-19 unless noted. This list is the pack's credit record until the mods
@@ -112,6 +117,7 @@ If 1–3 crash and 4 works, drop Big Cannons to the Watchlist and use TNT cannon
 | **TownTopia** | CurseForge `towntopia` | 2026-11-20: v0.1.3, NeoForge 1.21.1, updated 2026-11-15, ~2.8k downloads, All Rights Reserved, needs GeckoLib | Very early alpha ("in active development"). CurseForge-only, and it's unknown whether the author allows automatic downloads (packwiz needs that for hands-off installs and the server). Untested with Sable | A more stable release, plus a confirmed automatic download when packwiz adds it. Goes in batch 4 |
 | TownTopia: Additions | CurseForge (fan add-on by AnthonyS1337) | 2026-11-20 | Depends on TownTopia | Add after TownTopia works |
 | TownTopia: Integrations | CurseForge (fan add-on by AnthonyS1337) | 2026-11-20 | Depends on TownTopia | Add after TownTopia works |
+| Sky Archipelago | Modrinth `sky-archipelago` | 2026-11-22: v1.4 (2026-10-31), NeoForge 1.21.1 only, All Rights Reserved | Fallback world type if no Tectonic seed gives a good archipelago. Configurable island sizes, spacing and ocean layer; built for Aeronautics. Replaces terrain, so Tectonic would come out; unknown whether Terralith biomes survive | Only if seed hunting with default Tectonic fails |
 | Aero Ship Buoyancy | Modrinth `aero-ship-buoyancy` | 2026-11-19: v1.4.0 | May overlap Waterworks' buoyancy | Only if Waterworks' buoyancy isn't enough |
 
 ## Dropped
@@ -126,4 +132,6 @@ If 1–3 crash and 4 works, drop Big Cannons to the Watchlist and use TNT cannon
 | Noisium | No update since 2024 |
 | Sable Water Fix | Single release, ~1k downloads, code stated as AI-generated; too risky beside Sable |
 | Alex's Mobs | No official 1.21.1 build |
+| Archipelago (mod) | One 0.0.2 release from 2024; the author says it's untested with other mods |
+| Aero Islands | Floating islands over void, no sea; would make Waterworks pointless |
 | Storage Drawers, Repurposed Structures, L_Ender's Cataclysm, FTB Chunks | Not found on Modrinth under those names; check CurseForge if wanted |
