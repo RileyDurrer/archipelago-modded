@@ -1,0 +1,8 @@
+# Mod jars are downloaded by packwiz, never committed
+*.jar
+# Exported packs
+*.mrpack
+*.zip
+# Local test server data
+/server-data/
+.env
