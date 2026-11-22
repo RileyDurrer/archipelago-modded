@@ -59,7 +59,7 @@ against (reason given).
 | Structory | Modrinth `structory` | 1.3.17 | Stardust Labs License | |
 | Nullscape | Modrinth `nullscape` | 1.2.14 | Stardust Labs License | |
 | Aquamirae | Modrinth `aquamirae` | 7.2.13 | Obscuria Modding License | |
-| Artifacts | Modrinth `artifacts` | 13.2.5 | MIT | |
+| Artifacts | Modrinth `artifacts` | 13.2.5 | MIT | Kept by Riley 2026-11-21 for exploration. Loot only lands in vanilla loot tables, so most YUNG's rooms, Structory and probably When Dungeons Arise won't carry it; campsites, mineshafts and temples will. See [Artifacts loot research](research/2026-11-21-artifacts-loot.md) |
 | Naturalist | Modrinth `naturalist` | 2.0.7+1.21.1-neoforge | Custom | |
 
 ### Batch 4: vanilla+ / QoL
