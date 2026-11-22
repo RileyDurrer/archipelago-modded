@@ -69,5 +69,5 @@ AE2 also has open crash reports on Sable, for example on world save
   ([Sable #799](https://github.com/ryanhcode/sable/issues/799)).
 - **Functional Storage:** beta and needs the Titanium library; Storage Drawers
   is the stable choice.
-- **Create Stock Bridge:** joins AE2 and Create networks; only relevant if AE2
-  stays.
+- **Create Stock Bridge:** joins AE2 and Create networks. Not needed: AE2
+  was dropped (Riley, 2026-11-21).

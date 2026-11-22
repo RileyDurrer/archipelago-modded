@@ -38,7 +38,6 @@ against (reason given).
 ### Batch 2: tech
 | Mod | Source | Version checked | Licence | Notes |
 |---|---|---|---|---|
-| Applied Energistics 2 | Modrinth `ae2` | 19.2.20 | Multiple | Chosen over Refined Storage. Under review 2026-11-21: Create 6's own storage is now the main system (see Undecided) |
 | Create Crafts & Additions | Modrinth `createaddition` | neoforge-1.21.1-1.7.2 | MIT | Electricity |
 | Create: Enchantment Industry | Modrinth `create-enchantment-industry` | 2.5.4b | LGPL-3.0 | |
 | Create: Copycats+ | Modrinth `copycats` | (latest 1.21.1) | | Light blocks for ship hulls |
@@ -116,7 +115,6 @@ If 1–3 crash and 4 works, drop Big Cannons to the Watchlist and use TNT cannon
 | Mod | Source | Question |
 |---|---|---|
 | Create Aeronautics: Transmission & Linkage | Modrinth `create-aeronautics-transmission-linkage` | Extra vehicle parts: in or out? |
-| Applied Energistics 2 | Modrinth `ae2` | Keep it, or drop it now that Create 6's own storage (vaults, packagers, Stock Keeper) is the main system? Several open AE2 crash reports on Sable; see [storage research](research/2026-11-21-create-storage.md) |
 
 ## Watchlist (wanted, not ready yet)
 | Mod | Source | Checked | Why it's waiting | What would make it ready |
@@ -132,7 +130,8 @@ If 1–3 crash and 4 works, drop Big Cannons to the Watchlist and use TNT cannon
 |---|---|
 | Mekanism | Open bug report of a rendering problem with Aeronautics/Sable; pulls play away from Create (Crafts & Additions covers power). Confirmed by Riley 2026-11-21 |
 | Waystones | Airships make getting there the fun part. Confirmed by Riley 2026-11-21 |
-| Refined Storage | Duplicates AE2 |
+| Applied Energistics 2 | Decided by Riley 2026-11-21: Create 6's own storage (vaults, packagers, Stock Keeper) covers search and ordering in a more physical, Create-style way, and AE2 has several open crash reports on Sable ([Sable #1222](https://github.com/ryanhcode/sable/issues/1222)). See [storage research](research/2026-11-21-create-storage.md) |
+| Refined Storage | Another digital storage mod; same reasons as AE2 |
 | Embeddium | Sodium now has a native NeoForge build |
 | Sophisticated Storage | Cut by Riley 2026-11-21: the storage mod needs a deliberate choice (see Undecided) |
 | Xaero's Minimap | Players who want a minimap can add their own. Decided by Riley 2026-11-21. Also had an open loading-screen hang report with Sable ([Sable #1109](https://github.com/ryanhcode/sable/issues/1109)) |
