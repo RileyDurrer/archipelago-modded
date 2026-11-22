@@ -88,11 +88,28 @@ Aeronautics, Sable and Waterworks cannot be optional):
 |---|---|
 | Iris | Open Aeronautics report of a visual glitch with shaders |
 | Sodium | Open Aeronautics report of a vertex glitch |
-| Xaero's Minimap, Xaero's World Map | Open report of a loading-screen hang with Sable ([Sable #1109](https://github.com/ryanhcode/sable/issues/1109)) |
-| Controlling, AppleSkin, Jade | Personal preference |
+| Xaero's World Map, Controlling, AppleSkin, Jade | Personal preference |
 
 Entity Culling and ImmediatelyFast stay required: they are performance mods
 players have no reason to remove.
+
+## Players adding their own mods
+
+Players may add client mods of their own, such as a minimap (the pack has
+none; decided 2026-11-21). packwiz-installer leaves these alone: it only
+deletes files listed in its own manifest of what it installed, and only when
+they leave the pack (`processIndex` in `UpdateManager.kt`,
+[packwiz-installer](https://github.com/packwiz/packwiz-installer); behaviour
+also discussed in [#69](https://github.com/packwiz/packwiz-installer/issues/69)).
+
+- **Guess:** a player's jar with the same filename as a pack mod may be
+  overwritten. Unlikely in practice.
+- An open report ([#26](https://github.com/packwiz/packwiz-installer/issues/26))
+  of managed files being deleted after quitting the installer mid-run; the
+  maintainer could not reproduce it.
+- The site should warn that Xaero's Minimap has an open report of a
+  loading-screen hang with Sable ([Sable #1109](https://github.com/ryanhcode/sable/issues/1109)),
+  and that the server can't help with mods it doesn't ship.
 
 ## Java
 
@@ -126,5 +143,5 @@ checkboxes.
 - Accounts: **Guess** that each player needs their own Microsoft account
   that owns Minecraft Java to join the server (Prism's FAQ does not say).
   Whether every player has one is not checked.
-- The four **To test** items above, to run with a two-mod test pack before
+- The **To test** items above, to run with a two-mod test pack before
   the full pack goes up.
