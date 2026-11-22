@@ -33,3 +33,8 @@ installed, this file will list each mod's authors and links.
   (https://github.com/ObscuriaLithium/Aquamirae), Terralith's overworld
   definition (https://github.com/Stardust-Labs-MC/Terralith), and the
   Modrinth pages and API for all three.
+- Farmer's Delight and its Create add-ons (notes in the mod list), checked
+  2026-11-21: Modrinth API, the Farmer's Delight source and issues
+  (https://github.com/vectorwing/FarmersDelight), Slice & Dice's licence and
+  issues (https://github.com/PssbleTrngle/SliceAndDice), and the Sable issue
+  tracker.
