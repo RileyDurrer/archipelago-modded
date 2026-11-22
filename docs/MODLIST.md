@@ -51,14 +51,14 @@ against (reason given).
 ### Batch 3: world and exploration
 | Mod | Source | Version checked | Licence | Notes |
 |---|---|---|---|---|
-| Terralith | Modrinth `terralith` | 2.6.2 | Stardust Labs License | Server-side world generation |
-| Tectonic | Modrinth `tectonic` | 3.0.28-neoforge-21.1 | MIT | Server-side world generation |
+| Terralith | Modrinth `terralith` | 2.6.2 | Stardust Labs License | Server-side world generation. 2.6.x needs Lithostitched ([Modrinth](https://modrinth.com/mod/terralith)). Kept by Riley 2026-11-21 after seeing its biomes |
+| Tectonic | Modrinth `tectonic` | 3.0.28-neoforge-21.1 | MIT | Server-side world generation. Needs Lithostitched; has built-in Terralith support ([Modrinth](https://modrinth.com/mod/tectonic)) |
 | YUNG's Better Dungeons, Mineshafts, Strongholds, Desert Temples, Jungle Temples, Ocean Monuments, Nether Fortresses, Witch Huts | Modrinth `yungs-better-*` | 1.21.1-NeoForge (2024–25 builds) | LGPL-3.0 | Server-side; need YUNG's API |
 | When Dungeons Arise | Modrinth `when-dungeons-arise` | 2.1.68 | All Rights Reserved | Includes sky dungeons, good airship targets |
 | Explorify | Modrinth `explorify` | v1.6.6 | All Rights Reserved | |
 | Structory | Modrinth `structory` | 1.3.17 | Stardust Labs License | |
 | Nullscape | Modrinth `nullscape` | 1.2.14 | Stardust Labs License | |
-| Aquamirae | Modrinth `aquamirae` | 7.2.13 | Obscuria Modding License | |
+| Aquamirae | Modrinth `aquamirae` | 7.2.13 | Obscuria Modding License | Kept by Riley 2026-11-21, checked against Terralith and Tectonic the same day. Needs Fragmentum (5.0.0+) and GeckoLib (4.8.0+). The Ice Maze is not a new biome: a biome modifier turns vanilla deep frozen and deep cold oceans into it (config `ice_maze_biomes`), and Terralith still generates both, so there is nothing for it to drop. Watch for: the Ice Maze covering huge areas with Tectonic's oceans ([Aquamirae #18](https://github.com/ObscuriaLithium/aquamirae/issues/18); fix by limiting it to `deep_frozen_ocean`), and pirate structures spawning too low ([Aquamirae #45](https://github.com/ObscuriaLithium/aquamirae/issues/45), reported on 1.20.1). Test with `/locate structure aquamirae:pirate_ship`. No Sable or Aeronautics reports found |
 | Artifacts | Modrinth `artifacts` | 13.2.5 | MIT | Kept by Riley 2026-11-21 for exploration. Loot only lands in vanilla loot tables, so most YUNG's rooms, Structory and probably When Dungeons Arise won't carry it; campsites, mineshafts and temples will. See [Artifacts loot research](research/2026-11-21-artifacts-loot.md) |
 | Naturalist | Modrinth `naturalist` | 2.0.7+1.21.1-neoforge | Custom | |
 

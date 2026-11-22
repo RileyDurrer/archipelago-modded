@@ -28,3 +28,8 @@ installed, this file will list each mod's authors and links.
   YUNG's structure mod sources (https://github.com/YUNG-GANG), Stardust Labs'
   Structory and Terralith sources (https://github.com/Stardust-Labs-MC), and
   NeoForge's loot table patch (https://github.com/neoforged/NeoForge).
+- Aquamirae with Terralith and Tectonic (notes in the mod list), checked
+  2026-11-21: Aquamirae source and issues #18, #45
+  (https://github.com/ObscuriaLithium/Aquamirae), Terralith's overworld
+  definition (https://github.com/Stardust-Labs-MC/Terralith), and the
+  Modrinth pages and API for all three.
